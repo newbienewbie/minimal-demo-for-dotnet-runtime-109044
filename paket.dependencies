@@ -11,8 +11,8 @@ nuget NETStandard.Library
 nuget Microsoft.NETFramework.ReferenceAssemblies
 nuget microsoft.netcore.platforms
 
-nuget Microsoft.Extensions.Logging.Abstractions 8.0.2 lowest_matching: true
-nuget Microsoft.Extensions.Logging 8.0.1 lowest_matching: true
+nuget Microsoft.Extensions.Logging.Abstractions 8.0.0 lowest_matching: true
+nuget Microsoft.Extensions.Logging 8.0.0 lowest_matching: true
 
 nuget Microsoft.Extensions.Hosting >= 8.0 lowest_matching: true
 nuget Microsoft.Extensions.Hosting.Abstractions >= 8.0 lowest_matching: true
