@@ -1,0 +1,20 @@
+source "C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\"
+source https://baget.stdunit.com/v3/index.json
+source https://api.nuget.org/v3/index.json
+cache ./nuget-package-caches
+
+framework: net8.0, net8.0-windows10.0.17763.0, net472, netstandard2.0
+storage: none
+strategy: min
+
+nuget NETStandard.Library
+nuget Microsoft.NETFramework.ReferenceAssemblies
+nuget microsoft.netcore.platforms
+
+nuget Microsoft.Extensions.Logging.Abstractions 8.0.2 lowest_matching: true
+nuget Microsoft.Extensions.Logging 8.0.1 lowest_matching: true
+
+nuget Microsoft.Extensions.Hosting >= 8.0 lowest_matching: true
+nuget Microsoft.Extensions.Hosting.Abstractions >= 8.0 lowest_matching: true
+nuget Microsoft.Extensions.Options >= 8.0 lowest_matching: true
+nuget Microsoft.Extensions.Options.ConfigurationExtensions >= 8.0 lowest_matching: true
